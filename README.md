@@ -1,7 +1,7 @@
-# whois
+# Whois Domain Api
 후이즈 도메인 API 매뉴얼
 
-	파일 목록 및 설명
+	메소드 목록 및 설명
 
 
 # 기본 주소
@@ -112,4 +112,5 @@ Command가 실패되었습니다.
 
 # License
 GPLv2
-Copyright (C) 2018 <bastcode>
+Copyright (C) 2018 
+-bastcode
