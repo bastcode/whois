@@ -3,7 +3,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 require realpath(FCPATH) . '/vendor/whois/src/Whois/autoload.php';
 
-class WhoisApi extends MY_Controller
+class WhoisApi extends CI_Controller
 {
 	/**
 	 * 객체 호출 방법 
