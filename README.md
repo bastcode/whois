@@ -42,11 +42,16 @@ reseller_info	리셀러 정보조회(보유 예치금 조회)
 
 3. log 위치는 핸들러와 한 묶음이 되어야 하는 규칙에 의해  “\vendor\whois\log ”  에 위치
 - 파일 위치 변경 하고 싶으면 WhoisTrait 파일 확인
+
+# api document
+postman 
+https://documenter.getpostman.com/view/4808834/RWgwRFVb
  
 # 응답코드
 기본적인 EPP 통신 코드를 기본으로 하고 있으며 다음과 같습니다.
 
 CODE	MESSAGE
+
 1000	Command completed successfully
 성공적으로 완료 되었습니다.
 
@@ -104,3 +109,7 @@ Command 문법이 잘못 되었습니다.
 2400	Command failed
 Command가 실패되었습니다.
 
+
+# License
+GPLv2
+Copyright (C) 2018 <bastcode>
