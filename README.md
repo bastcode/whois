@@ -4,24 +4,35 @@
 	파일 목록 및 설명
 
 
-기본 주소
+# 기본 주소
 
 /WhoisApi/
 예 /WhoisApi/check
 
 check		도메인 등록가능여부 확인
+
 host_info	호스트 조회
+
 host_manage	호스트 등록/수정/삭제
+
 info		도메인 정보조회
+
 register	도메인 등록
+
 renew		도메인 연장
+
 renew_check	도메인 연장가능여부 확인
+
 transfer	기관이전 신청
+
 update		도메인 기본정보 수정
+
 update_ns	도메인 네임서버 수정
+
 reseller_info	리셀러 정보조회(보유 예치금 조회)
 
-#테스트 진행 방법
+
+# 테스트 진행 방법
 1. 테스트 진행
 - 각 파일별로 테스트를 진행후 사이트 개발을 진행 합니다.
 - 각각의 파일에 input / output 이 설명되어 있습니다.
@@ -32,7 +43,7 @@ reseller_info	리셀러 정보조회(보유 예치금 조회)
 3. log 위치는 핸들러와 한 묶음이 되어야 하는 규칙에 의해  “\vendor\whois\log ”  에 위치
 - 파일 위치 변경 하고 싶으면 WhoisTrait 파일 확인
  
-#응답코드
+# 응답코드
 기본적인 EPP 통신 코드를 기본으로 하고 있으며 다음과 같습니다.
 
 CODE	MESSAGE
